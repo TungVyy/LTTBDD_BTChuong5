@@ -12,12 +12,11 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 20,
   },
-  avatar: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
-    marginBottom: 10,
-  },
+avatar: {
+  width: 120,
+  height: 120,
+  borderRadius: 60,
+},
   name: {
     fontSize: 20,
     fontWeight: 'bold',

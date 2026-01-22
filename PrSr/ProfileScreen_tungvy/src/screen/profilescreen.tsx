@@ -72,8 +72,8 @@ export default function App() {
           {/* ===== PROFILE HEADER ===== */}
           <View style={styles.header}>
             <Image
-              source={{ uri: '' }}
-              style={styles.avatar}
+                source={require('../assets/images/tungvy.jpg')}
+                style={styles.avatar}
             />
             <Text style={styles.name}>{name}</Text>
             <Text style={styles.email}>{email}</Text>
