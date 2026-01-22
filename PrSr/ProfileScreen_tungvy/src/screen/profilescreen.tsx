@@ -72,7 +72,7 @@ export default function App() {
           {/* ===== PROFILE HEADER ===== */}
           <View style={styles.header}>
             <Image
-              source={{ uri: 'https://i.pravatar.cc/150' }}
+              source={{ uri: '' }}
               style={styles.avatar}
             />
             <Text style={styles.name}>{name}</Text>
